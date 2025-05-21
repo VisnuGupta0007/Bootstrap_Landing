@@ -1,0 +1,22 @@
+#nav {
+    transition: all 0.5s ease;
+}
+
+#nav:hover {
+    color: gray;
+
+}
+
+
+
+
+
+.card-hover {
+    width: 25rem;
+    box-shadow: 10px 10px 20px gray, inset -5px -5px 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5), inset -5px -5px 20px rgba(0, 0, 0, 0.2);
+}
